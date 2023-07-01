@@ -233,6 +233,7 @@ canvas {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  max-width: 1000px;
 }
 
 .container {
@@ -257,8 +258,8 @@ canvas {
   margin: 0 auto auto auto;
   background: #fff;
   font-weight: 800;
-  font-size: 6vw;
-  width: 260px;
+  font-size: 9vw;
+  width: 20vw;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   overflow: hidden;
@@ -309,7 +310,7 @@ canvas {
 }
 
 .present-txt {
-  font-size: 9vmin;
+  font-size: 8vmin;
   color: rgb(46, 207, 46);
   text-align: center;
   font-family: Lato, sans-serif;
